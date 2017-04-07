@@ -9,7 +9,7 @@ Two input .txt files:
 
 Start_Node End_Node
 
-Ex. 
+Example of first input .txt file: 
 
 A E
 
@@ -23,7 +23,8 @@ Node2 X_coordinate Y_coordinate //second node for graph
 
 Node1 Node2 //node one and two are connected
 
-Ex.
+Example of second input .txt file:
+
 5 7
 
 A 1.3 1.8
@@ -44,7 +45,6 @@ A D
 
 B A
 
-
 B C
 
 C D
@@ -53,4 +53,4 @@ C E
 
 D E
 
-Outputs shortest path in terminal
+When executed, it outputs the shortest path between the input nodes to STDOUT. 
